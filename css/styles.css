@@ -1,0 +1,89 @@
+body{
+    font-family: Georgia, serif;
+}
+
+.app_title {
+    padding: 15px 5px 10px 5px;
+}
+
+.sidebar_width {
+    min-width: 300px;
+}
+
+._hr_ {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 2px solid black;
+}
+
+.location_list {
+    padding: 3px 5px 5px 5px;
+}
+
+.location_list:hover {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+
+.iw_title {
+    font-size: 1.3em;
+}
+
+.iw_subtitle {
+    font-size: 1em;
+}
+
+.iw_address_title {
+    margin-bottom: 2px;
+    font-size: .95em;
+}
+
+.iw_address {
+    margin-bottom: 0;
+    font-size: .9em;
+}
+
+.padding-zero {
+    padding: 0 0 0 0;
+}
+
+.padding-sides-10 {
+    padding: 0 10px 0 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: .9em;
+}
+
+@media (max-width: 768px) {
+    .search {
+        font-size: .7em;
+        margin-top: 5px;
+    }
+}
+
+.map_error {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.bg-inverse {
+    background-color: rgba(27, 2, 2, 0.15)!important;
+
+}
+
+.navbar-inverse .navbar-toggler-icon {
+    background-image: url('maps_96in128dp.png');
+}
+
+.test:hover {
+    background-color: #000;
+}
+
